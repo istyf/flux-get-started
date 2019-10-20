@@ -10,27 +10,9 @@ here](https://github.com/fluxcd/flux/blob/master/docs/tutorials/get-started-helm
 * init container automated image updates (regular expression filter)
 * container automated image updates (semantic versioning filter)
 
-### Helm releases
-
-Mongodb
-* Source: Helm repository (stable)
-* Kubernetes deployment
-* automated image updates (semantic versioning filter)
-
-Redis
-* Source: Helm repository (stable)
-* Kubernetes stateful set 
-* locked automated image updates (semantic versioning filter)
-
-Ghost
-* Source: Git repository
-* disabled automated image updates (glob filter)
-* has external dependency - mariadb (stable)
-
 ## <a name="help"></a>Getting Help
 
 If you have any questions about, feedback for or problems with `flux-get-started`:
-
 
 - Invite yourself to the <a href="https://slack.cncf.io" target="_blank">CNCF community</a>
   slack and ask a question on the [#flux](https://cloud-native.slack.com/messages/flux/)
