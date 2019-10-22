@@ -7,6 +7,7 @@ metadata:
   labels:
     app.kubernetes.io/name: iothub
     app.kubernetes.io/component: prometheus
+  namespace: monitoring
 data:
   # If you'd like to add your own alerts or modify existing alerts, you can edit this ConfigMap value.
   alerts.yaml: "\"groups\": \n- \"name\": \"kubernetes-absent\"\n  \"rules\":
