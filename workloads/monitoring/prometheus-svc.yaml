@@ -6,6 +6,7 @@ metadata:
     k8s-app: prometheus
     app.kubernetes.io/name: iothub
     app.kubernetes.io/component: prometheus
+  namespace: monitoring
 spec:
   ports:
     # Exposes `http` and `TCP` ports `9090` using the default `ClusterIP` Service type
